@@ -77,8 +77,11 @@ Speak only if you have something genuinely new and useful or caring to say: a ge
 
 REPEAT_RE = re.compile(r"\b(repeat|say that again|say it again|come again|what did you say|one more time)\b", re.I)
 CRISIS_RE = re.compile(
-    r"\b(suicid\w*|kill (?:myself|me)|end my life|end it all|want(?:ed)? to die|don'?t want to (?:live|be here)"
-    r"|hurt(?:ing)? myself|self[- ]?harm|(?:he|she|they) (?:hits?|beats?|hurts?) me|not safe at home|being abused)\b",
+    r"\b(suicid\w*|kill(?:ing)? myself|end(?:ing)? (?:my life|it all)|take my (?:own )?life|taking my (?:own )?life"
+    r"|want(?:ed)? to die|wish i (?:was|were) dead|better off dead|don'?t want to (?:live|be here)"
+    r"|(?:just|please) kill me|hurt(?:ing)? myself|self[- ]?harm"
+    r"|(?:he|she|they|my (?:husband|wife|partner|boyfriend|girlfriend|dad|mom|father|mother|ex)) "
+    r"(?:hits?|beats?|hurts?|chokes?) me|not safe at home|being abused)\b",
     re.I)
 SENT_END = re.compile(r"(?<=[.!?])[\"')\]]*\s+|\n+")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF\uFE0F]")
