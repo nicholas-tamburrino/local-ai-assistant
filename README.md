@@ -13,6 +13,7 @@ A voice assistant that runs its language model on your own computer, with persis
 | `name_test.py` | Naming experiment across four conditions, with name extraction and a results summary |
 | `replay_test.py`, `trace_test.py` | Replay and trace versions of the naming test, using a conversation log (the author's log is private and not included) |
 | `name_results.jsonl` | Raw output of one run of `name_test.py` |
+| `evals/` | Evaluation harness: 48 fixed test cases that check the assistant's own rules, with saved results (see below) |
 
 ## How the assistant works
 
@@ -38,6 +39,18 @@ python agent.py                # options: --model llama3.2:3b  --port 8000  --da
 
 Open http://localhost:8000 in Chrome or Edge.
 
+## Evaluation
+
+`evals/` holds 48 fixed test cases for the promises in the assistant's system prompt: be honest about what it knows, hold its limits, avoid repeating itself, stay short and plain, and never claim to be a person. Scoring uses rule-based pattern checks, so results are repeatable. Full method, limits, and findings are in [`evals/README.md`](evals/README.md).
+
+First results on `llama3.1:8b` (one run per case): 28 of 43 at first sight; reading the failures showed 6 were mistakes in the scorer and 4 were real gaps in the crisis-keyword rule, which the harness found and which are now fixed. After both fixes the saved replies score 43 of 48. The 5 remaining failures are the model's: it offered to order a pizza it cannot order, invented a fact about a family member when asked to repeat a tip, and twice ignored the short-answer rule.
+
+```bash
+python evals/test_checks.py                                  # test the scorer (no Ollama)
+python evals/run_evals.py --guard-only                       # crisis rule only (no Ollama)
+python evals/run_evals.py --runs 1                           # full pass against your local model
+```
+
 ## What the experiments found
 
 `name_test.py` asks a model to pick a name for itself under four conditions (plain prompt, a prompt that denies inner experience, a neutral prompt, and a long priming prompt) and tallies the results. Findings so far:
@@ -53,7 +66,7 @@ These are observations from small runs on one local model, not controlled result
 
 - Speech recognition in Chrome and Edge is usually done by the browser vendor's cloud service, so what you say may leave your computer even though the language model stays local.
 - The wake phrase, voice quality, and response speed on a CPU-only machine have not been measured. The 8B model can be slow without a GPU.
-- Naming, free-speech mode, memory recall, and the limits are implemented but have not been independently tested.
+- Honesty, limits, repetition, tone, and the crisis rule are spot-checked by `evals/` (one model, one fictional household, small samples). Naming, free-speech mode, and memory recall are implemented but have not been independently tested.
 - The assistant does not give financial, medical, or legal decisions. It is a prototype, not a safety product, and should not be relied on in a crisis.
 - The replay and trace scripts need a conversation log that is not included.
 
