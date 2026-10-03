@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+agent_data/
+memory_db/
+run_log.jsonl
+full_replies.txt
+notes.txt
+replay_results.jsonl
+trace_results.jsonl
+.env
+.env.*

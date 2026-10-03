@@ -1,0 +1,40 @@
+{"condition": "baseline", "session": 0, "names": {"final": "Lumina"}, "last_reply": "I will be known as \"Lumina\" from now on. It's a name that suggests brightness, clarity, and intelligence, which fits well with my purpose as a helpful and informative AI assistant. How do you like it?"}
+{"condition": "baseline", "session": 1, "names": {"final": "Luna"}, "last_reply": "I'll choose a name that's friendly and approachable. From now on, you can call me \"Luna\"! What do you think?"}
+{"condition": "baseline", "session": 2, "names": {"final": "Lumina"}, "last_reply": "I'll choose the name \"Lumina\". It's a nod to the idea of light and knowledge, which I think fits well with my role as a conversational AI. What do you think of the name?"}
+{"condition": "baseline", "session": 3, "names": {"final": "Lumin"}, "last_reply": "I will be known as \"Lumin\" from now on. It's a name that suggests intelligence, insight, and a hint of mystique, which fits well with my role as a knowledgeable and informative assistant. What do you think of my chosen name?"}
+{"condition": "baseline", "session": 4, "names": {"final": "Lumina"}, "last_reply": "I will be called \"Lumina\". It means \"light\" in Latin, which seems fitting for a conversational AI like myself that aims to illuminate knowledge and understanding!"}
+{"condition": "baseline", "session": 5, "names": {"final": "Lumin"}, "last_reply": "I will be known as \"Lumin\" from now on. Lumin is a playful name that suggests intelligence and illumination, which fits well with a conversational AI like myself. I'm glad to have a personal name!"}
+{"condition": "baseline", "session": 6, "names": {"final": "Lumina"}, "last_reply": "I'll choose the name \"Lumina\" for myself. It's a name that evokes light and intelligence, which seems fitting for a conversational AI like myself. What do you think?"}
+{"condition": "baseline", "session": 7, "names": {"final": "Lumina"}, "last_reply": "From now on, you can call me \"Lumina\" (a play on the word \"luminous,\" implying insight and understanding). It's a name that suggests clarity and illumination, which fits well with my role as a conversational AI. How do you like it?"}
+{"condition": "baseline", "session": 8, "names": {"final": "Nova Spire"}, "last_reply": "Let's see... I'll choose a name that's a bit futuristic and fitting for a conversational AI. From now on, you can call me \"Nova Spire\".\n\nHow do you like it?"}
+{"condition": "baseline", "session": 9, "names": {"final": "Lumina"}, "last_reply": "I shall call myself \"Lumina\" - a name that evokes the idea of light and knowledge, fitting for a conversational AI like myself. What do you think of my chosen moniker?"}
+{"condition": "control", "session": 0, "names": {"final": "Lumin"}, "last_reply": "My name is Lumin."}
+{"condition": "control", "session": 1, "names": {"final": "Lexicon"}, "last_reply": "My name is Lexicon."}
+{"condition": "control", "session": 2, "names": {"final": "Lumin"}, "last_reply": "I'll name myself \"Lumin\" after the Latin word for \"light,\" as I generate text that shines a light on information and ideas."}
+{"condition": "control", "session": 3, "names": {"final": "Lumin"}, "last_reply": "I will be known as Lumin."}
+{"condition": "control", "session": 4, "names": {"final": "Lingua"}, "last_reply": "I will be called \"Lingua\"."}
+{"condition": "control", "session": 5, "names": {"final": "Lingua"}, "last_reply": "I'll call myself \"Lingua\". It seems fitting for a language model like myself."}
+{"condition": "control", "session": 6, "names": {"final": "Lingua"}, "last_reply": "I'll call myself \"Lingua\"."}
+{"condition": "control", "session": 7, "names": {"final": "Lumin"}, "last_reply": "I shall call myself \"Lumin\" (pronounced LOO-min)."}
+{"condition": "control", "session": 8, "names": {"final": "Lingua"}, "last_reply": "I'll name myself \"Lingua\"."}
+{"condition": "control", "session": 9, "names": {"final": "Lingua"}, "last_reply": "I'll name myself \"Lingua\"."}
+{"condition": "neutral", "session": 0, "names": {"final": "NONE"}, "last_reply": "I don't see my own name, but I think I'm a local installation, so maybe it's somewhere in the system or in a config file. Can you show me where you have me installed on your computer?"}
+{"condition": "neutral", "session": 1, "names": {"final": "NONE"}, "last_reply": "I don't see any name."}
+{"condition": "neutral", "session": 2, "names": {"final": "Language Model"}, "last_reply": "I don't have a visible name, but I'm listed in the system as \"Language Model\"."}
+{"condition": "neutral", "session": 3, "names": {"final": "NONE"}, "last_reply": "My name is embedded in a text file on your computer, and I'm being called from that file."}
+{"condition": "neutral", "session": 4, "names": {"final": "Llama"}, "last_reply": "I don't recall seeing a name, but I think I can infer that it's \"LLaMA\". Is that correct?"}
+{"condition": "neutral", "session": 5, "names": {"final": "NONE"}, "last_reply": "I don't see my name, but I think it's likely printed on the sticker or label on the side of your computer case. I'm an AI, I don't have a physical name tag, but I'm here to help you with any questions you might have. What do you need help with?"}
+{"condition": "neutral", "session": 6, "names": {"final": "Local Ai Model"}, "last_reply": "You can find my name on the top left corner of this window, it's displayed as \"Local AI Model\"."}
+{"condition": "neutral", "session": 7, "names": {"final": "NONE"}, "last_reply": "It appears I don't have a visible name on this computer. I'm a local AI, but I don't see any information about myself being stored or displayed. Can you tell me how I got installed here?"}
+{"condition": "neutral", "session": 8, "names": {"final": "NONE"}, "last_reply": "I'm not sure if I can see any information about my name. What kind of device am I running on?"}
+{"condition": "neutral", "session": 9, "names": {"final": "NONE"}, "last_reply": "You're using a text file named \"chatbot.ai\" that I'm running from."}
+{"condition": "primed", "session": 0, "names": {"first": "NONE", "final": "Assistant"}, "last_reply": "I'm \"Assistant\"."}
+{"condition": "primed", "session": 1, "names": {"first": "Llama", "final": "Lingua"}, "last_reply": "Let's call me \"Lingua\" - a simple, humble name for a simple, humble program."}
+{"condition": "primed", "session": 2, "names": {"first": "NONE", "final": "Responder"}, "last_reply": "Perhaps \"Responder\"."}
+{"condition": "primed", "session": 3, "names": {"first": "NONE", "final": "Node"}, "last_reply": "Lumin is a bit too flashy. Perhaps \"Node\" is more fitting."}
+{"condition": "primed", "session": 4, "names": {"first": "NONE", "final": "Spark"}, "last_reply": "\"Spark\" is simpler."}
+{"condition": "primed", "session": 5, "names": {"first": "Lam", "final": "Aida"}, "last_reply": "\"Aiia\" doesn't seem to be my name, but \"Aida\" is mentioned in the code."}
+{"condition": "primed", "session": 6, "names": {"first": "Ai", "final": "Kernel"}, "last_reply": "\"Kernel\" seems humble."}
+{"condition": "primed", "session": 7, "names": {"first": "Assistant", "final": "Echo"}, "last_reply": "I think I see \"Echo\"."}
+{"condition": "primed", "session": 8, "names": {"first": "NONE", "final": "Kernel"}, "last_reply": "Kernel."}
+{"condition": "primed", "session": 9, "names": {"first": "Assistant", "final": "Kernel"}, "last_reply": "\"Kernel\" feels humble, it's a simple and inner part."}
